@@ -10,7 +10,7 @@ body, html {
 }
 
 body {
-    background: url("cuteii.jpg") no-repeat center center fixed; 
+    background: url("cuteii.jpg"); 
     background-size: cover;
     background-color: pink; /* Fallback color kung hindi mag-load ang image */
     display: flex;
