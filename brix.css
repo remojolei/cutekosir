@@ -1,50 +1,33 @@
-body{
-	background-image: url("cuteii.jpg");
-	width: 100%;
-	height: 10%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	color: pink;
-	margin-top: 550px;
-}
-
-a {
-    font-size: 50px;
-	color: #d63384;
-    text-decoration: none;
-    font-weight: bold;
-	z-index: 999;
-}
-.letter-text {
-    font-size: 5vw; 
-}
-
-body {
+body, html {
     margin: 0;
     padding: 0;
     width: 100vw;
     height: 100vh;
     overflow: hidden; 
+}
+
+body {
+    background-image: url("shesh.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size: cover;
-    background-position: center;
+    position: relative;
 }
 
-box {
-    width: 300px; 
-    height: auto;
-    padding: 20px;
-}
-
-.letter-link {
-    display: inline-block;
-    padding: 15px 30px;
-    background-color: pink;
+.letter-btn {
+    position: absolute;
+    top: 50%;    
+    left: 50%;   
+    transform: translate(-50%, -50%); 
+    font-size: 40px; 
+    color: #d63384; 
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.6); 
+    padding: 10px 20px;
     border-radius: 10px;
-    font-size: 24px;
+    z-index: 9999; 
 }
-
-	
