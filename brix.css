@@ -1,37 +1,31 @@
-html, body {
+* {
+    box-sizing: border-box;
+}
+
+body, html {
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden; /* Lock ang zoom/scroll para fixed ang background */
+    width: 100vw;
+    height: 100vh;
 }
 
 body {
-    background-image: url('cuteii.jpg'); /* Gamit ang tamang image file */
+    background: url("cuteii.jpg") no-repeat center center fixed; 
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: pink; /* Fallback color kung hindi mag-load ang image */
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
 
 .letter-btn {
-    /* Pinapagitna ang link kahit mag-zoom */
-    font-size: clamp(2rem, 8vw, 4rem); 
-    color: #ff69b4; /* Hot pink color */
+    padding: 15px 30px;
+    font-size: 30px;
+    background-color: white;
+    color: #ff69b4;
     text-decoration: none;
-    font-weight: bold;
-    background-color: rgba(255, 255, 255, 0.7); /* Puting background para mabasa ang text */
-    padding: 10px 30px;
-    border-radius: 20px;
+    border-radius: 15px;
     border: 3px solid #ff69b4;
-    z-index: 9999; /* Siguradong nasa ibabaw ng image */
-    transition: 0.3s;
-}
-
-.letter-btn:hover {
-    background-color: #ff69b4;
-    color: white;
+    font-weight: bold;
+    z-index: 999;
 }
