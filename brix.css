@@ -16,3 +16,25 @@ a{
 	align-items: center;
 	margin-left: 50px;
 	margin-right: 50px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; /* Pinipigilan ang scrollbar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.box {
+    width: clamp(200px, 50vw, 400px);
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem; 
+}
+	
