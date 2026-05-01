@@ -31,10 +31,4 @@ body {
     background-position: center;
 }
 
-.box {
-    width: clamp(200px, 50vw, 400px);
-    padding: 20px;
-    text-align: center;
-    font-size: 1.2rem; 
-}
 	
