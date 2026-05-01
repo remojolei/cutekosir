@@ -9,13 +9,13 @@ body{
 	margin-top: 550px;
 }
 
-a{
-	font-size: 30px;
-	text-decoration: none;
-	color: black;
-	align-items: center;
-	margin-left: 50px;
-	margin-right: 50px;
+a {
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.letter-text {
+    font-size: 5vw; 
 }
 
 body {
@@ -23,12 +23,26 @@ body {
     padding: 0;
     width: 100vw;
     height: 100vh;
-    overflow: hidden; /* Pinipigilan ang scrollbar */
+    overflow: hidden; 
     display: flex;
     justify-content: center;
     align-items: center;
     background-size: cover;
     background-position: center;
+}
+
+box {
+    width: 300px; 
+    height: auto;
+    padding: 20px;
+}
+
+.letter-link {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: pink;
+    border-radius: 10px;
+    font-size: 24px;
 }
 
 	
