@@ -1,8 +1,41 @@
+<!DOCTYPE html>
+<html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="brix.css">
+    <title>Sir Brix</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            background: url('cuteii.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .letter-btn {
+            position: absolute;
+            /* Binaba ko na nang sagad sa 80% para mapunta sa ilalim ng text */
+            top: 80%; 
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 28px;
+            color: #ff69b4;
+            text-decoration: none;
+            font-weight: bold;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 12px 30px;
+            border-radius: 20px;
+            border: 3px solid #ff69b4;
+            z-index: 9999;
+        }
+    </style>
 </head>
 <body>
-    <!-- Siguraduhin na 'Sir.html' ang file name sa GitHub -->
     <a href="Sir.html" class="letter-btn">Letter</a>
 </body>
+</html>
