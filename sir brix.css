@@ -67,3 +67,11 @@ body{
     background-size: cover;
     background-position: center;
 }
+
+
+.letter-content {
+    width: 80%;
+    max-height: 90vh; 
+    overflow-y: auto; 
+    font-size: clamp(1rem, 2.5vh, 2rem); 
+}
